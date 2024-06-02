@@ -174,8 +174,8 @@ if __name__ == '__main__':
     logging.info(args.model_dir)
     log.info('model dir:' + args.model_dir)
 
-    train_path = '/data3/law/data/FF+++/no_align/c23/train'
-    test_path = '/data3/law/data/FF+++/no_align/c23/test'
+    train_path = '/data3/law/data/FF++/c23/train'
+    test_path = '/data3/law/data/FF++/c23/test'
 
 
     train_dataset = FFPP_Dataset(train_path,frame=20,phase='train')
