@@ -17,14 +17,24 @@ To evaluate the trained model, use the evaluation command as follow:
 python eval.py --model_path {your trained model}
 
 For FF++ dataset, the strcture is:
+
 /train
+
 .../Deepfakes
+
 .../.../video_name
+
 .../.../.../0000.png
+
 .../Face2Face
+
 .../FaceSwap
+
 .../NeuralTextures
+
 .../original
+
 /valid
+
 /test
       
