@@ -64,7 +64,7 @@ def train(args, model, optimizer,train_loader,valid_loader,scheduler,save_dir):
                 labels = labels.cuda()
                 outputs,moe_loss= model(inputs)
                 ce_loss = criterion(outputs, labels)
-                loss = ce_loss + 10*moe_loss
+                loss = ce_loss + 1*moe_loss
                 loss.backward()
                 optimizer.step()
 
