@@ -90,11 +90,8 @@ if __name__ == '__main__':
     os.environ['CUDA_VISIBLE_DEVICES'] = '{}'.format(args.device)
     device = torch.device("cuda:{}".format(args.device) if torch.cuda.is_available() else "cpu")
 
-
-    # logging
-
     test_path = '/data3/law/data/Celeb_DF/test'
-    test_dataset =TestDataset(test_path,dataset='CDF',frame=20)
+    test_dataset =TestDataset(test_path,dataset='CDF',frame=100)
 
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=args.num_workers)
 
