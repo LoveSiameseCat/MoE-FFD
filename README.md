@@ -6,8 +6,10 @@ This repository contains the official PyTorch implementation for MoE-FFD.
 ------
 
 ## Requirements
+- python == 3.8.5
 - timm == 0.5.4
 - pytorch == 1.8.0
+- albumentations == 1.1.0
 
 ## Useage
 To train the model, use the train command as follow:
