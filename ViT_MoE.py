@@ -1620,6 +1620,6 @@ def vit_base_patch16_224_miil(pretrained=False, **kwargs):
 if __name__ == '__main__':
     model = vit_base_patch16_224_in21k(pretrained=True,num_classes=2)
     x = torch.rand(32,3,224,224)
-    y,_,_ = model(x)
+    y,_ = model(x)
     print(y.shape)
 
