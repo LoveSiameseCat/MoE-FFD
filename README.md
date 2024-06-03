@@ -11,10 +11,11 @@ This repository contains the official PyTorch implementation for MoE-FFD.
 - pytorch == 1.8.0
 - albumentations == 1.1.0
 
-## Useage
+# Training:
 To train the model, use the train command as follow:
-
+'''
 python train.py
+'''
 
 To evaluate the trained model, use the evaluation command as follow:
 
