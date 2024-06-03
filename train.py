@@ -175,13 +175,13 @@ if __name__ == '__main__':
     log.info('model dir:' + args.model_dir)
 
     train_path = '/data3/law/data/FF++/c23/train'
-    test_path = '/data3/law/data/FF++/c23/test'
+    valid_path = '/data3/law/data/FF++/c23/valid'
 
 
     train_dataset = FFPP_Dataset(train_path,frame=20,phase='train')
-    test_dataset =TestDataset(test_path,dataset='FFPP',frame=20)
+    valid_dataset =TestDataset(valid_path,dataset='FFPP',frame=20)
     train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
-    test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=args.num_workers)
+    valid_loader = DataLoader(valid_dataset, batch_size=1, shuffle=False, num_workers=args.num_workers)
 
 
     model = vit_base_patch16_224_in21k(pretrained=True,num_classes=2)
@@ -206,7 +206,7 @@ if __name__ == '__main__':
 
 
     print('Start train process...')
-    train(args, model,optimizer,train_loader,test_loader,scheduler,save_dir)
+    train(args, model,optimizer,train_loader,valid_loader,scheduler,save_dir)
     duration = time.time()-start_time
     print('The task of {} is completed'.format(args.description))
     print('The best AUC is {:.2%}'.format(auc))
