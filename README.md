@@ -22,6 +22,7 @@ To evaluate the trained model, use the evaluation command as follow:
 python eval.py --model_path {your trained model}
 
 ## Data Stucture:
+```
 FaceForensics++
 │
 ├── c23
@@ -72,7 +73,7 @@ Dataset for generalization evaluation (Only demonstra)
 ├── WDF
 │   ├── real_test
 │   └── fake_test
-
+```
 ## Citation
 If you find our work helpful in your research, please cite it as:
 
