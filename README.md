@@ -28,7 +28,7 @@ FaceForensics++
 ├── c23
 │   ├── train
 │       ├── original
-│           ├── 239 (This folder includes evary video frames)
+│           ├── 239 (This folder includes video frames)
 │           :
 │       ├── FaceSwap
 │       ├── Deepfakes
@@ -36,7 +36,7 @@ FaceForensics++
 │       └── Face2Face
 │   ├── valid
 │       ├── original
-│           ├── 579 (This folder includes evary video frames)
+│           ├── 579 (This folder includes video frames)
 │           :
 │       ├── FaceSwap
 │       ├── Deepfakes
@@ -51,8 +51,8 @@ FaceForensics++
 │       ├── NueralTextures
 │       └── Face2Face
 
-Other Test datasets:
-Dataset for generalization evaluation
+Other datasets:
+Dataset used for generalization evaluation
 ├── CDF
 │   ├── YouTube-real
 │   ├── Celeb-synthesis
