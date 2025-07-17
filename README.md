@@ -21,6 +21,58 @@ To evaluate the trained model, use the evaluation command as follow:
 
 python eval.py --model_path {your trained model}
 
+## Data Stucture:
+FaceForensics++
+│
+├── c23
+│   ├── train
+│       ├── original
+│           ├── 239 (This folder includes evary video frames)
+│           :
+│       ├── FaceSwap
+│       ├── Deepfakes
+│       ├── NueralTextures
+│       └── Face2Face
+│   ├── valid
+│       ├── original
+│           ├── 579 (This folder includes evary video frames)
+│           :
+│       ├── FaceSwap
+│       ├── Deepfakes
+│       ├── NueralTextures
+│       └── Face2Face
+│   ├── test
+│       ├── original
+│           ├── 000 (This folder includes video frames)
+│           :
+│       ├── FaceSwap
+│       ├── Deepfakes
+│       ├── NueralTextures
+│       └── Face2Face
+
+Other Test datasets:
+Dataset for generalization evaluation (Only demonstra)
+│
+├── CDF
+│   ├── YouTube-real
+│   ├── Celeb-synthesis
+│   └── Celeb-real
+├── DFD
+│   ├── real
+│   └── fake
+├── DFDC
+│   ├── real
+│   └── fake
+├── DFDCP
+│   ├── real
+│   └── fake
+├── DFR
+│   ├── real
+│   └── fake
+├── WDF
+│   ├── real_test
+│   └── fake_test
+
 ## Citation
 If you find our work helpful in your research, please cite it as:
 
