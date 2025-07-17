@@ -52,8 +52,7 @@ FaceForensics++
 │       └── Face2Face
 
 Other Test datasets:
-Dataset for generalization evaluation (Only demonstra)
-│
+Dataset for generalization evaluation
 ├── CDF
 │   ├── YouTube-real
 │   ├── Celeb-synthesis
