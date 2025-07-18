@@ -21,7 +21,7 @@ To evaluate the trained model, use the evaluation command as follow:
 
 python eval.py --model_path {your trained model}
 
-## Data Stucture:
+## Data Structure:
 ```
 FaceForensics++
 │
