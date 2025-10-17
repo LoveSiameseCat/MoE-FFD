@@ -5,6 +5,13 @@ This repository contains the official PyTorch implementation for MoE-FFD.
 
 ------
 
+## Update 2025-10-17
+We release the demo and pre-trained model，you can find it from：
+
+通过网盘分享的文件：MoE-FFD.tar
+链接: https://pan.baidu.com/s/1a7rXkQQP31LBOV-sjnfvXQ 提取码: 8jtp 
+--来自百度网盘超级会员v5的分享
+
 ## Requirements
 - python == 3.8.5
 - timm == 0.5.4
