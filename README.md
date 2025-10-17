@@ -80,8 +80,8 @@ If you find our work helpful in your research, please cite it as:
 @article{kong2024moe,
   title={Moe-ffd: Mixture of experts for generalized and parameter-efficient face forgery detection},
   author={Kong, Chenqi and Luo, Anwei and Bao, Peijun and Yu, Yi and Li, Haoliang and Zheng, Zengwei and Wang, Shiqi and Kot, Alex C},
-  journal={arXiv preprint arXiv:2404.08452},
-  year={2024}
+  journal={IEEE Transactions on Dependable and Secure Computing},
+  year={2025}
 }
 ```
 
